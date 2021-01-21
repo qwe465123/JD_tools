@@ -1,6 +1,9 @@
 name: 东东超市
 
 on:
+  push:
+    branches: 
+      - master
   schedule:
     - cron: '5 * * * *'
 jobs:
