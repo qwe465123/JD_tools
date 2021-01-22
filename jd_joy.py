@@ -295,7 +295,7 @@ def run():
         try:
             enterRoom(cookies)
         except:
-            print('wrong' happening)
+            print('wrong happening')
         desk(cookies)
         combat(cookies)
         print("##"*25)
