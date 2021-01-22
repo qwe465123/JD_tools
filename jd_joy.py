@@ -292,7 +292,10 @@ def run():
         takeTask(cookies)
         reward(cookies)
         ScanMarket_extra(cookies)
-        enterRoom(cookies)
+        try:
+            enterRoom(cookies)
+        except:
+            print('wrong' happening)
         desk(cookies)
         combat(cookies)
         print("##"*25)
