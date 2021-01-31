@@ -31,7 +31,7 @@ import random
 # 参数设置,开启置1,关闭置0
 flag_upgrade = 1              # 额外,自动升级   顺序:解锁升级商品(高等)、升级货架
 flag_limitTimeProduct = 1     # 自动上架限时商品(替换普通商品,同类型至少两个商品)
-flag_pk = 1                   # 自动加入zero的队伍
+flag_pk = 0                   # 自动加入zero的队伍
 flag_prize_1000 = 1  # 京豆打包兑换
 flag_prize_1 = 1  # 单个京豆兑换,万能的京豆
 
